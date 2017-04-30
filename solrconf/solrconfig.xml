@@ -987,7 +987,7 @@
   </requestHandler>
 
   <searchComponent name="spellcheck" class="solr.SpellCheckComponent">
-  	<str name="queryAnalyzerFieldType">string</str>
+  	<str name="queryAnalyzerFieldType">text</str>
   	<lst name="spellchecker">
       <str name="name">suggest</str>
       <str name="classname">org.apache.solr.spelling.suggest.Suggester</str>
