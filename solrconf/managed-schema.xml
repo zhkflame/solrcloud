@@ -226,7 +226,8 @@
     
     <!-- add by zhk -->
     <fieldType name="text_ik" class="solr.TextField">  
-      <analyzer class="org.wltea.analyzer.lucene.IKAnalyzer"/>  
+      <analyzer class="org.wltea.analyzer.lucene.IKAnalyzer"> 
+      </analyzer>  
     </fieldType>
     
     <fieldType name="url" class="solr.TextField" positionIncrementGap="100">
